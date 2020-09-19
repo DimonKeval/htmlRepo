@@ -1,0 +1,76 @@
+<style type="styles.css">
+		input[type="text"], label{
+			color: lightgreen;
+			background-color: #aaffcc;
+		}
+		body {
+  			background-color: #00ff33;
+  			animation-name: color;
+  			animation-duration: 5s;
+  			animation-iteration-count: infinite;
+		}
+
+		@keyframes color {
+  			0% {
+    			background-color: #00ff33;
+  			}
+  			25%{
+  			    background-color: #450011;
+  			}
+  			50% {
+    			background-color: #ffbb11;
+  			}
+  			75%{
+  			    background-color: #321f00;
+  			}
+  			100 {
+    			background-color: #00ff33;
+  			}
+		}
+
+		@keyframes button-color {
+  			0% {
+    			background-color: #aa00bb;
+  			}
+  			50% {
+    			background-color: #ffbb11;
+  			}
+  			100 {
+    			background-color: #aa00bb;
+  			}
+		}
+		@keyframes text-color {
+  			0% {
+    			color: #f00000;
+  			}
+  			50% {
+    			color: #00a811;
+  			}
+  			100 {
+    			color: #f00000;
+  			}
+		}
+		p{
+			color: red;
+		}
+		.blue{
+			color: blue;
+			background-color: coral;
+		}
+		h1, h2, h3{
+			color: #ccddee;
+		}
+		table{
+			background-color: #99bb44;
+			color: #ee4900;
+		}
+
+	button{
+		font-size: 72px;
+		font-family: 'Ranchers', sans-serif;
+		animation-name: button-color, text-color;
+  			animation-duration: 2s;
+  			animation-iteration-count: infinite;
+	}
+
+    </style>
