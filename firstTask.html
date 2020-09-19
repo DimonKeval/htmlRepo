@@ -1,67 +1,122 @@
 <!DOCTYPE html>
 <html lang="pl">
-	<head>
-		<meta charset="utf-8">
-		<title>Task 3</title>
-	</head>
-	<body>
-	<h1>Zawartość <sup>strony</sup><sub>testowej</sub></h1>
+<head>
+    <meta charset="utf-8">
+    <title>Task 5</title>
+</head>
+<body>
+<h1>Zawartość <sup>strony</sup><sub>testowej</sub></h1>
 <!--		<div>Pierwszy division</div>-->
 
-		<span>Pierwszy SPAN</span>
-		<div>Drugi division</div>
-		<span>Drugi SPAN</span>
-		<p><mark>First <span><b><i>SPAN BETWEEN PARAGRAPH</i></b></span> paragraph</mark></p>
-	<span>Span between paragraphs <p><b>paragraph in span</b></p></span>
-		<p>Second paragraph</p>
-	<h2>Try to put link into text on page.</h2>
-		<div><a href="https://github.com/DimonKeval">anchor on GitHub.com/DimonKeval</a></div>
-	<button onclick= "window.location.href = 'https://google.com';">Click me to go to "Google.com"!</button>
+<!--		<span>Pierwszy SPAN</span>-->
+<!--		<div>Drugi division</div>-->
+<!--		<span>Drugi SPAN</span>-->
+<!--		<p><mark>First <span><b><i>SPAN BETWEEN PARAGRAPH</i></b></span> paragraph</mark></p>-->
+<!--	<span>Span between paragraphs <p><b>paragraph in span</b></p></span>-->
+<!--		<p>Second paragraph</p>-->
+<!--	<h2>Try to put link into text on page.</h2>-->
+<!--		<div><a href="https://github.com/DimonKeval">anchor on GitHub.com/DimonKeval</a></div>-->
+<!--	<button onclick= "window.location.href = 'https://google.com';">Click me to go to "Google.com"!</button>-->
 
-	<h2><mark>List of some info</mark></h2>
-	<ol>
-		<li>First row.</li>
-		<ul><li>Show some text</li>
-			<li>Show nex text</li></ul>
-		<li>Second Row</li>
-	</ol>
+<!--	<h2><mark>List of some info</mark></h2>-->
+<!--	<ol>-->
+<!--		<li>First row.</li>-->
+<!--		<ul><li>Show some text</li>-->
+<!--			<li>Show nex text</li></ul>-->
+<!--		<li>Second Row</li>-->
+<!--	</ol>-->
 
-	<h2><b>Table of my favorite films</b></h2>
-	<table border = "1">
-		<thead>
-		<tr>
-			<th colspan="2">Title</th>
-			<th colspan="2">Director</th>
-			<th colspan="2">Release date</th>
-		</tr>
-		</thead>
-		<tbody>
-		<tr>
-			<td colspan="2" rowspan="2">Taxi 1</td>
-			<td colspan="2">Luc Besson</td>
-			<td colspan="2">2000</td>
-		</tr>
-		<tr><td colspan="4">Some description</td></tr>
-		<tr>
-			<td colspan="2" rowspan="2">Taxi 2</td>
-			<td colspan="2">Luc Besson</td>
-			<td colspan="2">2001</td>
-		</tr>
-		<tr><td colspan="4">Some description</td></tr>
-		<tr>
-			<td colspan="2" rowspan="2">Taxi 3</td>
-			<td colspan="2">The same</td>
-			<td colspan="2">2002</td>
-		</tr>
-		<tr><td colspan="4">Some description</td></tr>
-		</tbody>
-	</table>
+<!--	<h2><b>Table of my favorite films</b></h2>-->
+<!--	<table border = "1">-->
+<!--		<thead>-->
+<!--		<tr>-->
+<!--			<th colspan="2">Title</th>-->
+<!--			<th colspan="2">Director</th>-->
+<!--			<th colspan="2">Release date</th>-->
+<!--		</tr>-->
+<!--		</thead>-->
+<!--		<tbody>-->
+<!--		<tr>-->
+<!--			<td colspan="2" rowspan="2">Taxi 1</td>-->
+<!--			<td colspan="2">Luc Besson</td>-->
+<!--			<td colspan="2">2000</td>-->
+<!--		</tr>-->
+<!--		<tr><td colspan="4">Some description</td></tr>-->
+<!--		<tr>-->
+<!--			<td colspan="2" rowspan="2">Taxi 2</td>-->
+<!--			<td colspan="2">Luc Besson</td>-->
+<!--			<td colspan="2">2001</td>-->
+<!--		</tr>-->
+<!--		<tr><td colspan="4">Some description</td></tr>-->
+<!--		<tr>-->
+<!--			<td colspan="2" rowspan="2">Taxi 3</td>-->
+<!--			<td colspan="2">The same</td>-->
+<!--			<td colspan="2">2002</td>-->
+<!--		</tr>-->
+<!--		<tr><td colspan="4">Some description</td></tr>-->
+<!--		</tbody>-->
+<!--	</table>-->
 
-	<h3>List of my favorite songs</h3>
-		<ol>
-			<li>Dietro casa - Ludovico Einaudi</li>
-			<li>Lose yourself - Eminem</li>
-			<li>Sonne - Rammstein</li>
-		</ol>
-	</body>
+<!--	<h3>List of my favorite songs</h3>-->
+<!--		<ol>-->
+<!--			<li>Dietro casa - Ludovico Einaudi</li>-->
+<!--			<li>Lose yourself - Eminem</li>-->
+<!--			<li>Sonne - Rammstein</li>-->
+<!--		</ol>-->
+<form action="#" method="get" enctype="text/plain">
+    <label for="name">Name</label>
+    <input id="name" type="text" name="name">
+	<br>
+	<br>
+    <label for="lastname">Lastname</label>
+    <input id="lastname" type="text" name="lastname">
+	<br>
+	<br>
+    <label for="date">Date of birth</label>
+    <input id="date" type="date" name="date">
+	<br>
+	<br>
+    <label for="email">Email address</label>
+    <input id="email" type="email" name="email">
+	<br>
+	<br>
+    <label for="age">Age</label>
+    <input id="age" type=number name="age">
+	<br>
+	<br>
+	<label for="sex">Sex</label>
+	<select id="sex" name="sex">
+		<option value="undefined" name="undefined">Undefined</option>
+		<option value="male" name="male">Male</option>
+		<option value="female" name="female">Female</option>
+	</select>
+	<br>
+	<br>
+	<fieldset>
+		<legend>Choose your favorite color</legend>
+
+		<input type="radio" id="blue" name="blue">
+		<label for="blue">Blue</label><br/>
+
+		<input type="radio" id="red" name="red">
+		<label for="red">Red</label><br/>
+
+		<input type="radio" id="yellow" name="yellow">
+		<label for="yellow">Yellow</label>
+	</fieldset>
+	<input type="submit" value="Submit">
+</form>
+<!--1. Imię-->
+<!--2. Nazwisko-->
+<!--3. Data urodzenia-->
+<!--4. Adres email-->
+<!--5. wiek-->
+<!--6. Płeć-->
+<!--7. Ulubiony kolor-->
+<!--8. Listę rozwijalną zawierającą członków rodziny-->
+<!--9. Przycisk do wysłania danych z formularza-->
+<!--10. Przycisk do wyczyszczenia formularza-->
+<!--11. Każde pole powinno mieć przypisaną nazwę pola.-->
+
+</body>
 </html>
