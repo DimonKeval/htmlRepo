@@ -1,13 +1,28 @@
-<style type="styles.css">
+		html {
+		    font-size: 14px;
+		}
+
+        .outer {
+            font-size: 2rem;
+        }
+
+.child {
+            font-size: 2em;
+        }
+
 		input[type="text"], label{
 			color: lightgreen;
 			background-color: #aaffcc;
 		}
 		body {
-  			background-color: #00ff33;
-  			animation-name: color;
+  			background-color: rgba(70%, 10%, 40%, 0.3);
+  			/*animation-name: color;
   			animation-duration: 5s;
   			animation-iteration-count: infinite;
+  			background-image: url("homer.gif");
+  			background-position: center;
+  			background-repeat: inherit;
+  			background-size: auto;*/
 		}
 
 		@keyframes color {
@@ -72,5 +87,3 @@
   			animation-duration: 2s;
   			animation-iteration-count: infinite;
 	}
-
-    </style>
