@@ -6,23 +6,54 @@
             font-size: 2rem;
         }
 
-.child {
-            font-size: 2em;
-        }
+img {
+    box-sizing: border-box;
+    margin: 20px;
+}
 
-		input[type="text"], label{
+
+.header, .footer{
+    height: 100px;
+    width: 100vw;
+    position: fixed;
+
+    left: 0;
+    background: #333;
+}
+.header{
+    top: 0;
+}
+.footer{
+    bottom: 0;
+}
+
+.card {
+     width: 350px;
+     height: 50px;
+     padding: 9px; /* dodanie wypełnienia o szerokości 20px z każdej strony */
+     margin: 20px; /* dodanie marginesu o szerokości 20px z każdej strony */
+     border: 18px dotted grey;
+}
+
+		/*input[type="text"], label{
 			color: lightgreen;
 			background-color: #aaffcc;
-		}
+		}*/
 		body {
-  			background-color: rgba(70%, 10%, 40%, 0.3);
-  			/*animation-name: color;
+  			/*background-color: rgba(70%, 10%, 40%, 0.3);*/
+  			animation-name: color;
   			animation-duration: 5s;
   			animation-iteration-count: infinite;
-  			background-image: url("homer.gif");
-  			background-position: center;
-  			background-repeat: inherit;
+  			background: url('homer.gif') no-repeat center center fixed;
+            background-size: auto;
+  			/*background-image: url("homer.gif");
+  			background-position: fixed;
+  			background-repeat: no-repeat;
   			background-size: auto;*/
+  			        padding-top: 150px;
+  			        padding-bottom: 150px;
+
+
 		}
 
 		@keyframes color {
@@ -87,3 +118,7 @@
   			animation-duration: 2s;
   			animation-iteration-count: infinite;
 	}
+
+input:disabled {
+  background: #456622;
+}
